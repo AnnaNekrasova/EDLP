@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+.numeric {
+	list-style-type: lower-greek;
+}
+.bullets{
+	list-style-type: square;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.nav li{
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+	}
+.nav li:last-child{
+	margin-right: 0;
+}
+
+.ol{
+	margin: 0 40px 0 40 px;
+	position: relative;
+	line-height: 2;
+	text-transform: uppercase;
+}/*
+ =======================================
+ сетка
+ =======================================
+ */
+/*
+ =======================================
+ clearfix
+ =======================================
+ */
+.group::before,
+.group::after{
+	content: "";
+	display: table;
+}
+.group::after{
+	clear:both;
+}
+.group{
+	clear: both;
+	*zoom: 1;
+}
+
+/*
+ =======================================
+Основной заголовок
+ =======================================
+ =======================================
+ кнопки
+ =======================================
+ */
+ .btn {
+	 border-radius: 5px;
+	 display: inline-block;
+	 color: lightslategray;
+	 position: relative;
+	 height: 80%;
+	 
+
+	margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    font-size: 18px;
+
+	 }
+
+
+.myheader{
+		width: 90%;
+		background: lightblue;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        margin: 0 auto;
+      
+         }
+.myheader form {
+	text-align: center
+}
+/*
+ =======================================
+Тело
+ =======================================
+ */
+
+.firstsec {
+		width: 90%;
+		background: lightpink;
+        color: lightslategray;
+        border-radius: 1em;
+        padding: 1em;
+        margin: 0 auto;	
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+    justify-content: center;
+}
+.verttb {
+	display: inline-block;
+	/*align-items: center;
+    justify-content: center;*/
+     color: lightslategray;
+    height: 80%;
+	 left: 30%;
+	 margin-right: 2%;
+	 margin-bottom: 5%;
+	
+	
+
+}
+
+
+.secgraph1{
+	
+	display: inline-block;
+	 color: lightslategray;
+	 height: 80%;
+	 left: 30%;
+	
+
+}
+
+.secondsec {
+		width: 90%;
+		background: lightgreen;
+        color: lightslategray;
+        border-radius: 1em;
+        padding: 1em;
+        margin: 0 auto;	
+        display: flex;
+         align-items: center;
+    justify-content: center;
+
+        
+}
+
+.hortb {
+	display: block;
+	 color: lightslategray;
+	 height: 80%;
+	 left: 30%;
+	margin-right: 0;
+	 margin-left: 5%;
+
+
+}
+
+.fifthtb{
+	display: inline-block;
+	/*align-items: center;
+    justify-content: center;*/
+     color: lightslategray;
+    height: 80%;
+	 left: 30%;
+	 margin-right: 2%;
+	 margin-bottom: 13%;
+}
+
+
+.thirdsec{
+	width: 90%;
+		background: lightcoral;
+        color: yellow;
+        border-radius: 1em;
+        padding: 1em;
+        margin: 0 auto;	
+        display: flex;
+         align-items: center;
+    justify-content: center;
+
+}
+
+
+td,th {
+	border: 1px solid black;
+	padding: 4px;
+}
+
+table + table {
+	margin-top: 15px;
+}
+
+h2{
+	margin-top:5%;
+	margin-bottom: 5%;
+	align-items: center;
+	color:  black;
+	font-size: 20px;
+
+}
+
+
+
+ /*
+ =======================================
+Подвал
+ =======================================
+ */
+ .myfooter{
+		width: 90%;
+		background: orange;
+        color: white;
+        border-radius: 1em;
+        padding: 1em;
+        margin: 0 auto;
+      
+         }
+.myfooter form {
+	text-align: center
+}
+
+.footerform h2 {
+margin-top: 0;
+margin-bottom: 1%;
+}

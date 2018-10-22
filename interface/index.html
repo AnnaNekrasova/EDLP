@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EDLP</title>
+    <link rel = "stylesheet" href ="main.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<header class="myheader">
+		<form id="headerform" >
+			<select id="year" class="btn">
+		    <option value="hide">-- Year --</option>
+		    <option value="2016">2016</option>
+		    <option value="2017">2017</option>
+		    <option value="2018">2018</option>
+			</select>
+			<button class="btn">Зимний сезон</button>
+			<button class="btn">Летний сезон</button>
+		</form>
+	</header>
+
+	<section id="sect1" class="firstsec">
+		<section id="sect1_1" class="verttb">	
+			<h2>Статистика по рассылкам</h2>
+			<table id="tb1" class="firsttb" style="border-collapse: collapse; border: 1px solid black;">
+				<tr>
+		    		<th>Open rate</th>
+		    		<th>Click rate</th> 
+		    		<th>Repurhcase rate</th>
+		  		</tr>
+		  		<tr>
+		  			<td>%</td>
+		  			<td>%</td>
+		  			<td>%</td>
+		  		</tr>
+		  	</table><!-- 
+		  	--><table id ="tb2" class="secondtb">
+					<tr>
+						<th>Happy kitten</th>
+						<th>Sad kitten</th>
+						<th>Total kittens</th>
+					</tr>
+					<tr>
+			  			<td>number</td>
+			  			<td>number</td>
+			  			<td>number</td>
+		  			</tr>
+				</table>
+		</section><!--
+		 --><section id="graph1" class="secgraph1">
+		 		<h2>Статистика по рассылкам</h2>
+				<img src="C://2_WSP//MSC_wsp//EDLP//ui.jpg" alt="mypic" width="300px" height="200px" />
+			</section>
+	</section>
+
+	<section id="sect2" class="secondsec">
+		<section id="sect1_2" class="hortb">
+			<h2>Статистика по повторным покупкам</h2>	
+			<table id="tb3" class="thirdtb">
+				<tr>
+		    		<th>Number of clients who purchased</th>
+		    		<th>Number of clients who used giftcard</th> 
+		    		<th>Repurchase rate of the giftcards</th>
+		  		</tr>
+		  		<tr>
+		  			<td>number</td>
+		  			<td>number</td>
+		  			<td>%</td>
+		  		</tr>
+		  	</table><!-- 
+		  	--><table id ="tb4" class="forthtb">
+					<tr>
+						<th>Number of clients received giftcard</th>
+						<th>Number of clients used giftcard</th>
+						<th>Uplift rate</th>
+					</tr>
+					<tr>
+			  			<td>number</td>
+			  			<td>number</td>
+			  			<td>%</td>
+		  			</tr>
+				</table>
+			</section>
+	</section>
+	<section id="sect3" class="thirdsec">
+		<section id="sect3_1" class="verttb">	
+			<h2>Статистика по возмещениям</h2>
+				<table id ="tb5" class="fifthtb">
+					<tr>
+						<th class="th">#</th>
+						<th>Article number</th>
+						<th>Initial price</th>
+						<th>Decreased price</th>
+						<th>Delta</th>
+					</tr>
+					<tr>
+			  			<td>number</td>
+			  			<td>number</td>
+			  			<td>number</td>
+			  			<td>number</td>
+			  			<td>number</td>
+		  			</tr>
+				</table>
+		</section>
+			<section id="graph3" class="secgraph3">
+				<h2>Статистика по возмещениям</h2>
+				<img src="C://2_WSP//MSC_wsp//EDLP//ui.jpg" alt="mypic" width="300px" height="200px" />
+			</section>
+	</section>
+</body>
+	<footer class="myfooter">
+
+		<form class="footerform">
+			<h2>Параметры для выгрузки в формате csv</h2>
+			<select id="year" class="btn">
+		    <option value="hide">-- Year --</option>
+		    <option value="2016">2016</option>
+		    <option value="2017">2017</option>
+		    <option value="2018">2018</option>
+			</select>
+			<select id="week" class="btn">
+		    <option value="hide">-- Week --</option>
+		    <option value="13">13</option>
+		    <option value="14">14</option>
+		    <option value="15">15</option>
+		    <option value="16">16</option>
+		    <option value="17">17</option>
+		    <option value="18">18</option>
+		    <option value="19">19</option>
+		    <option value="20">20</option>
+		    <option value="21">21</option>
+		    <option value="22">22</option>
+		    <option value="23">23</option>
+		    <option value="24">24</option>
+		    <option value="25">25</option>
+		    <option value="26">26</option>
+		    <option value="27">27</option>
+		    <option value="28">28</option>
+		    <option value="29">29</option>
+		    <option value="30">30</option>
+		    <option value="42">42</option>
+		    <option value="43">43</option>
+		    <option value="44">44</option>
+		    <option value="45">45</option>
+		    <option value="46">46</option>
+		    <option value="47">47</option>
+		    <option value="48">48</option>
+		    <option value="49">49</option>
+		    <option value="50">50</option>
+		    <option value="51">51</option>
+		    <option value="52">52</option>
+		    <option value="53">53</option>
+		    </select>
+		    <select id="сс" class="btn">
+		    <option value="hide">-- Cost Center --</option>
+		    <option value="DMI">DMI</option>
+		    <option value="Store">Store</option>
+		    </select>
+		</form>		
+	</footer>
+</html>
